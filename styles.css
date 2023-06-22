@@ -69,18 +69,17 @@ button:hover {
 
 .items {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
   width: 100%;
   height: 100%;
-  flex-wrap: nowrap;
-  background-color: chartreuse;
 
 }
 
 #item1 {
   background-color: blue;
-  width: 20px;
-  height: 20px;
+
 }
 
 #item2 {
