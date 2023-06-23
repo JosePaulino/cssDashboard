@@ -53,8 +53,9 @@ button {
 }
 
 button:hover {
-  background-color: rgb(65, 63, 63);
+  background-color: rgb(124, 118, 118);
   color: aliceblue;
+
 }
 
 .container-tela {
