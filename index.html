@@ -11,41 +11,45 @@
  <div class="nav"> <h1>Flexbox Dashboard</h1></div>
   <main>
     <section id="main">
-
+      <!--Texto informativo-->
       <div class="texto">
-        <p class="text">Escolha a configuração para ver seu comportamento....</p>
+        <p class="text">Escolha a configuração para ver seu comportamento</p>
       </div>
 
+      <!-- Flex Direction -->
       <div class="container-propriedade">
         <div class="prop-felxdirection">
           <p class="titulo">flex-direction:</p>
-          <button id="row">row;</button>
-          <button id="colum">column;</button>
-          <button id="row-reverse">row-reverse;</button>
-          <button id="column-reverse">column-reverse;</button>
+          <button id="felxdirection-row">row;</button>
+          <button id="felxdirection-column">column;</button>
+          <button id="felxdirection-row-reverse">row-reverse;</button>
+          <button id="felxdirection-column-reverse">column-reverse;</button>
         </div>  
       </div>
 
+      <!-- Justify Content -->
       <div class="container-propriedade">
         <div class="pro-justifycontent">
           <p class="titulo">justify-content:</p>
-          <button id="start">flex-star;</button>
-          <button id="center">center;</button>
-          <button id="end">flex-end;</button>
+          <button id="justifycontent-flex-star">flex-star;</button>
+          <button id="justifycontent-center">center;</button>
+          <button id="justifycontent-flex-end">flex-end;</button>
         </div>
       </div>
 
+      <!-- Align items-->
       <div class="container-propriedade">
           <div class="prop-alignitems">
           <p class="titulo">align-items:</p>
-          <button id="flex-start">flex-start;</button>
-          <button id="center">center;</button>
-          <button id="flex-end">flex-end;</button>
+          <button id="alignitems-flex-start">flex-start;</button>
+          <button id="alignitems-center">center;</button>
+          <button id="alignitems-flex-end">flex-end;</button>
         </div>
       </div>
 
+      <!-- Tela onde apresenta as configuracaos-->
       <div class="container-tela">        
-          <div class="items">
+          <div class="items" id="items">
             <p id="item1">1</p>
             <p id="item2">2</p>
             <p id="item3">3</p>
