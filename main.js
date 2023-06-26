@@ -34,8 +34,18 @@ function flexEnd(){
   const column = document.querySelector("#items")
   column.style.justifyContent = "flex-end"
 }
-
-
-
-
 /* align-items: */
+function AiFlexStart(){
+  const column = document.querySelector("#items")
+  column.style.alignItems = "flex-start"
+}
+
+function AiCenter(){
+  const column = document.querySelector("#items")
+  column.style.alignItems = "center"
+}
+
+function AiFlexEnd(){
+  const column = document.querySelector("#items")
+  column.style.alignItems = "flex-end"
+}
