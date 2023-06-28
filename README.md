@@ -1,2 +1,2 @@
 # CssDashboard
-Deploy:  https://josepaulino.github.io/cssDashboard/
+Deploy:   https://josepaulino.github.io/cssDashboard/
