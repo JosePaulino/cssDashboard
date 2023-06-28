@@ -1,8 +1,9 @@
 /* flex-direction: */
 function row(){
-  const column = document.querySelector("#items")
-  column.style.flexDirection = "row"
+  const row = document.querySelector("#items")
+  row.style.flexDirection = "row"
 }
+
 
 function column(){
   const column = document.querySelector("#items")
@@ -10,42 +11,43 @@ function column(){
 }
 
 function rowReverse(){
-  const column = document.querySelector("#items")
-  column.style.flexDirection = "row-reverse"
+  const rowReverse = document.querySelector("#items")
+  rowReverse.style.flexDirection = "row-reverse"
 }
 
 function columnReverse(){
-  const column = document.querySelector("#items")
-  column.style.flexDirection = "column-reverse"
+  const columnReverse = document.querySelector("#items")
+  columnReverse.style.flexDirection = "column-reverse"
 }
 
 /* justify-content: */
 function flexStart(){
-  const column = document.querySelector("#items")
-  column.style.justifyContent = "flex-start"
+  const flexStart = document.querySelector("#items")
+  flexStart.style.justifyContent = "flex-start"
 }
 
 function jcCenter(){
-  const column = document.querySelector("#items")
-  column.style.justifyContent = "center"
+  const jcCenter = document.querySelector("#items")
+  jcCenter.style.justifyContent = "center"
 }
 
 function flexEnd(){
-  const column = document.querySelector("#items")
-  column.style.justifyContent = "flex-end"
+  const flexEnd = document.querySelector("#items")
+  flexEnd.style.justifyContent = "flex-end"
 }
+
 /* align-items: */
 function AiFlexStart(){
-  const column = document.querySelector("#items")
-  column.style.alignItems = "flex-start"
+  const AiFlexStart = document.querySelector("#items")
+  AiFlexStart.style.alignItems = "flex-start"
 }
 
 function AiCenter(){
-  const column = document.querySelector("#items")
-  column.style.alignItems = "center"
+  const AiCenter = document.querySelector("#items")
+  AiCenter.style.alignItems = "center"
 }
 
 function AiFlexEnd(){
-  const column = document.querySelector("#items")
-  column.style.alignItems = "flex-end"
+  const AiFlexEnd = document.querySelector("#items") 
+  AiFlexEnd.style.alignItems = "flex-end"    
 }

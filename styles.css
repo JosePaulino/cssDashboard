@@ -8,31 +8,38 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
 button {
-  padding: 5px;
+  padding: 2px;
   border-radius: 5px;
   margin: 5px 0 0 5px;
   font-weight: bold;
   cursor: pointer;
+  border: 1px solid rgb(49, 47, 47);
+  box-shadow: 1px 1px black;
 }
 
 button:hover {
-  background-color: rgb(124, 118, 118);
+  background-color: #94bbe9;
   color: aliceblue;
+  box-shadow: inset 1px 1px black;
 }
 
 .nav {
   width: 100%;
   display: flex;
-  background-color: blue;
   justify-content: center;
+  padding: 20px 0;
 }
 
 #main {
   width: 80%;
   height: 100%vh;
   margin: auto;
-  background-color: aquamarine;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,6 +50,7 @@ button:hover {
 .texto {
   width: 100%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .container-propriedade {
@@ -52,8 +60,8 @@ button:hover {
   display: flex;
   justify-content: flex-start;
   padding: 1px 0;
-  background-color: blueviolet;
-  margin: 1px;
+  background-color: rgba(202, 152, 186, 0.733);
+  margin: 2px;
 }
 
 .container-tela {
@@ -63,15 +71,13 @@ button:hover {
   height: 150px;
   display: flex;
   background-color: aliceblue;
-  margin-top: 10px;
-
+  margin-top: 3px;
 }
 
 .items {
   display: flex;
   width: 100%;
   height: 100%;
-
 }
 
 #item1 {
